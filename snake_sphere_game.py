@@ -1,10 +1,10 @@
 import pygame
 import random
 
-# Initialize Pygame
+# Initialized Pygame
 pygame.init()
 
-# Screen dimensions
+# Screen dimensions of the game
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sphere Snake Game with Elegant Background")
@@ -15,7 +15,7 @@ BLACK = (0, 0, 0)
 TOP_COLOR = (135, 206, 250)  # Light Sky Blue
 BOTTOM_COLOR = (25, 25, 112)  # Midnight Blue
 
-# Game variables
+# Game variables such as score , clock etc
 score = 0
 running = True
 clock = pygame.time.Clock()
@@ -56,7 +56,7 @@ def draw_text(text, x, y, color=BLACK):
 
 
 def game_over():
-    """Displays the Game Over screen."""
+    """Displays the Game Over screen segment."""
     screen.fill(BLACK)
     draw_text("Game Over!", WIDTH // 2 - 100, HEIGHT // 2 - 50, color=WHITE)
     draw_text(f"Your Score: {score}", WIDTH // 2 - 100, HEIGHT // 2, color=WHITE)
@@ -132,7 +132,7 @@ class Food:
 # Initialize the background
 background = create_vertical_gradient_surface(WIDTH, HEIGHT, TOP_COLOR, BOTTOM_COLOR)
 
-# Initialize the snake and food
+# Initialize the snake and food of the snake
 snake = Snake(WIDTH // 2, HEIGHT // 2, radius=20, velocity=3)
 food = Food(radius=10, color_inner=(128, 0, 128), color_outer=(75, 0, 130))
 

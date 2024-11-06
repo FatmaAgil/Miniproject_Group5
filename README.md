@@ -22,14 +22,31 @@ A 2D Snake game built using `pygame`, featuring a gradient background, a gradien
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<username>/sphere-snake-game.git
-   cd sphere-snake-game
-Install Python dependencies: Ensure you have Python 3.x installed and run:
+1. Clone the Repository:
+
+Start by copying the code from GitHub to your local machine.
+Use this command to clone the repository:
+bash
+Copy code
+git clone https://github.com/<username>/sphere-snake-game.git
+Explanation: This command creates a local copy of the project on your computer, making it easy to work with the files.
+
+2. Navigate into the Project Folder:
+
+Once cloned, change into the project directory with:
+bash
+Copy code
+cd sphere-snake-game
+Explanation: This step moves you into the main project folder where the code is organized.
+
+3. Install Python Dependencies:
+
+Ensure that you have Python 3.x installed on your computer. Python 3 is required because Pygame, the library used in this project, is compatible with Python 3.
+Install the Pygame library, which is essential for running the game, by entering:
 bash
 Copy code
 pip install pygame
+Explanation: Pygame provides the tools to create graphics, handle game loops, and manage inputs for the game. Installing it will allow the code to run without errors.
 
 # How to Play
 Run the Game: Execute the main.py file to start the game:

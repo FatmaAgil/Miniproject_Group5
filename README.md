@@ -1,6 +1,6 @@
 # miniproject
 
-# Sphere Snake Game with Elegant Background
+# Sphere Snake Game 
 
 A 2D Snake game built using `pygame`, featuring a gradient background, a gradient snake, and gradient food. The goal is to collect food to grow the snake while avoiding collisions with the wall and the snake's own body. The game progressively gets harder as the snake's speed increases after each food item is eaten.
 
